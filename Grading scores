@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(){
+int number;
+
+printf("Enter a score:");
+scanf("%d", &number);
+
+if(number>=90){
+    printf("Grade A:Approved",number);
+}
+else if(number>=80&&number<90){
+    printf("Grade B:Approved",number);  
+}
+else if(number>=70&&number<80){
+  printf("Grade C:Approved",number);
+}
+ else if(number>=60&&number<70){
+  printf("Grade D:Disapproved",number);
+ }
+else{
+    printf("Failing Grade",number);
+}
+    return 0;
+}
