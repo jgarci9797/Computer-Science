@@ -1,0 +1,14 @@
+int main(){
+int number;
+
+printf("Enter age:");
+scanf("%d", &number);
+if(number>=18){
+    printf("Allowed to vote");  
+}
+  
+else{
+    printf("Not allowed to vote");
+}
+    return 0;
+}
